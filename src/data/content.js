@@ -126,3 +126,32 @@ export const holistic = [
     chips: ['Maintained buses', 'Experienced drivers', 'Fixed routes', 'Supervised travel'],
   },
 ]
+
+
+export const infrastructure = [
+  { tag: 'Skill-based', title: 'Skill-Based Learning', desc: 'Applying knowledge practically and thinking creatively to solve real problems.' },
+  { tag: 'Outreach', title: 'Community Service', desc: 'Interacting with different communities to build empathy and social awareness.' },
+  { tag: 'Hands-on', title: 'Experiential Learning', desc: 'Connecting classroom knowledge with real-life experience and practical understanding.' },
+  { tag: 'STREAM', title: 'STREAM Education', desc: 'Science, technology, reading, engineering, arts and mathematics — integrated.' },
+  { tag: 'Arts', title: 'Visual & Performing Arts', desc: 'Music, dance, drawing and drama that build imagination and emotional intelligence.' },
+  { tag: 'Fitness', title: 'Physical Development', desc: 'Building strength, leadership and healthy lifestyle habits through sport.' },
+]
+
+export const testimonials = [
+  { initials: 'RS', quote: 'Excellence International School has been amazing for my child — caring teachers, fun lessons, and growing confidence every single week.', name: 'Rakesh Sharma', role: 'Parent of Aarav, Class 5' },
+  { initials: 'NV', quote: 'I love how safe and welcoming the school is. Staff know every student well and encourage them to do their best.', name: 'Neha Verma', role: 'Parent of Anaya, Class 3' },
+  { initials: 'AG', quote: 'My daughter enjoys learning, sports and creativity here. The balance between academics and fun is exactly right.', name: 'Amit Gupta', role: 'Parent of Vivaan, Class 7' },
+  { initials: 'PM', quote: 'Teachers here are patient and dedicated — every child is made to feel understood and supported to reach their potential.', name: 'Pooja Mehta', role: 'Parent of Riya, Class 4' },
+  { initials: 'SP', quote: 'My child is developing critical thinking and confidence through hands-on projects — and genuinely enjoys school.', name: 'Sanjay Patel', role: 'Parent of Krish, Class 6' },
+]
+
+export const values = ['Honesty', 'Integrity', 'Respect', 'Discipline', 'Compassion', 'Responsibility']
+
+
+export const faqs = [
+  { q: 'Where is Excellence International School located?', a: 'The school is located on Ramghat Road, Aligarh 202001, Uttar Pradesh, India.' },
+  { q: 'Which classes are available for admission?', a: 'Admissions are open across Play Group through Class 8, plus Daycare, subject to seat availability.' },
+  { q: 'Does the school offer extracurricular activities?', a: 'Yes — students take part in sports, cultural activities, the arts and personality-development programs.' },
+  { q: 'Is transportation available for students?', a: 'Yes, the school runs safe and convenient supervised transport on fixed routes.' },
+  { q: 'What makes Excellence International one of the best schools in Aligarh?', a: 'A structured academic approach, modern teaching methods, a focus on student development, and value-based education.' },
+]
