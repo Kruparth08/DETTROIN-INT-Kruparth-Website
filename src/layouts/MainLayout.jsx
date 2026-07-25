@@ -4,6 +4,7 @@ import MobileMenu from "../components/MobileMenu"
 import Topbar from "../components/Topbar"
 import { Outlet } from 'react-router-dom'
 import Footer from '../components/Footer'
+import FloatingButtons from '../components/FloatingButton'
 
 const MainLayout = () => {
       const [menuOpen, setMenuOpen] = useState(false)
@@ -15,6 +16,7 @@ const MainLayout = () => {
         <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
         <Outlet />
         <Footer />
+        <FloatingButtons />
     </div>
   )
 }
