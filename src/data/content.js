@@ -155,3 +155,10 @@ export const faqs = [
   { q: 'Is transportation available for students?', a: 'Yes, the school runs safe and convenient supervised transport on fixed routes.' },
   { q: 'What makes Excellence International one of the best schools in Aligarh?', a: 'A structured academic approach, modern teaching methods, a focus on student development, and value-based education.' },
 ]
+
+export const admissionSteps = [
+  { step: '01', title: 'Submit an enquiry', desc: 'Fill out the admission enquiry form online or call the admissions desk directly.' },
+  { step: '02', title: 'Campus visit', desc: 'Tour the campus, meet faculty, and see classrooms in session.' },
+  { step: '03', title: 'Assessment & interaction', desc: 'A simple, age-appropriate interaction to understand the child\u2019s readiness.' },
+  { step: '04', title: 'Confirm your seat', desc: 'Complete documentation and fee formalities to confirm admission.' },
+]
