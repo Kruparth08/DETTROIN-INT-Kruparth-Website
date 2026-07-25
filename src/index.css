@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@config "../tailwind.config.js"; 
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-text font-sans antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-ink;
+  line-height: 1.08;
+}
+
+p {
+  @apply text-textsoft;
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* eyebrow label used throughout the site */
+.eyebrow {
+  @apply inline-flex items-center gap-2.5 font-mono uppercase tracking-widest text-[12.5px] font-bold text-marigolddark;
+}
+.eyebrow::before {
+  content: '';
+  @apply inline-block w-[22px] h-[1.5px] bg-marigolddark;
+}
+.eyebrow-light {
+  @apply text-marigold;
+}
+.eyebrow-light::before {
+  @apply bg-marigold;
+}
