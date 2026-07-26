@@ -1,16 +1,102 @@
-# React + Vite
+# Website Redesign Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive recreation of the website built as part of a Technical Assessment. The project focuses on clean UI implementation, responsive layouts, smooth user experience, and reusable React components.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://dettroin-int-kruparth-website.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://github.com/Kruparth08/DETTROIN-INT-Kruparth-Website
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 👨‍💻 Developer Information
+
+| Field | Details |
+|--------|---------|
+| **Full Name** | Kruparthsinh Kher |
+| **Email Address** | kruparth.kher1008@gmail.com |
+| **GitHub Username** | Kruparth08 |
+| **Selected Website** | https://excellenceinternationalschool.com/ |
+| **Live Demo Link** | https://dettroin-int-kruparth-website.vercel.app/ |
+
+---
+
+# 🚀 Technologies Used
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Tailwind CSS
+- React Icons
+- Responsive Web Design
+- Vercel (Deployment)
+
+---
+
+# ✨ Key Improvements Made
+
+- Fully responsive design for desktop, tablet, and mobile devices.
+- Recreated the website using reusable React components.
+- Improved code organization for better maintainability.
+- Optimized layout and spacing for a cleaner user experience.
+- Added smooth hover effects and UI interactions.
+- Used modern React practices with functional components.
+- Fast development setup using Vite.
+- Clean project folder structure.
+- Improved readability and consistency throughout the UI.
+- Deployed the project on Vercel for easy access.
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Kruparth08/DETTROIN-INT-Kruparth-Website.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd DETTROIN-INT-Kruparth-Website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+
+# 📄 License
+
+This project was created for educational and internship assessment purposes.
+
+---
+
+## ⭐ If you like this project, consider giving it a star!
+```
